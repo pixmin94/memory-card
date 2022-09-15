@@ -10,3 +10,19 @@ body {
 #headerLogo {
     max-height: 120px;
 }
+
+.card-container {
+    display: grid
+}
+
+.card {
+    width: 100%;
+    padding: 15px 20px;
+    grid-template-columns: repeat(3, auto);
+    justify-content: space-around;
+}
+
+.card-image {
+    height: 250px;
+    width: auto;
+}

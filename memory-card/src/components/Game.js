@@ -11,6 +11,8 @@ function Game(){
         console.log("Current score is: " + score)
     }
 
+    
+
     return (
         <>
             <CardGrid updateScore={updateScore} />
