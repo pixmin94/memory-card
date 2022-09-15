@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Card from "./Card";
+import CardGrid from "./CardGrid";
 
 function Game(){
     const [score, setScore] = useState(0);
@@ -8,12 +8,12 @@ function Game(){
 
     const updateScore = () => {
         setScore(score+1)
-        console.log(score)
+        console.log("Current score is: " + score)
     }
 
     return (
         <>
-            <Card updateScore={updateScore} />
+            <CardGrid updateScore={updateScore} />
         </>
     )
 }
