@@ -1,20 +1,37 @@
 import React, { useState } from "react";
+import Header from "./Header"
 import CardGrid from "./CardGrid";
 
 function Game(){
     const [score, setScore] = useState(0);
-    // const [highScore, setHighScore] = useState(0);
-    // const [cardArray, addCard] = useState([]);
+    const [highScore, setHighScore] = useState(0);
+    const [cardsArray, addCard] = useState([]);
 
-    const updateScore = () => {
-        setScore(score+1)
-        console.log("Current score is: " + score)
+    const updateHighScore = () => {
+        if (score > highScore) {
+            setHighScore(score)
+        }
     }
 
-    
+    const reset = () => {
+        setScore(0);
+        addCard([]);
+    }
+
+    const updateScore = (cardName) => {
+        if (!cardsArray.includes(cardName)) {
+            addCard((prevArray) => [...prevArray,cardName])
+            setScore(score+1)
+            console.log(score)
+        } else {
+            updateHighScore();
+            reset();
+        }
+    }
 
     return (
         <>
+            <Header score={score} highScore={highScore}/>
             <CardGrid updateScore={updateScore} />
         </>
     )
