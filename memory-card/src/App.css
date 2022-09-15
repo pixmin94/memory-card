@@ -3,8 +3,9 @@ body {
 }
 
 .header {
-    margin: auto;
-    width: 30%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 #headerLogo {
@@ -12,17 +13,26 @@ body {
 }
 
 .card-container {
-    display: grid
+    display: grid;
+    max-width: 400px;
+    margin: auto;
+    justify-content: center;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, auto);
+    grid-gap: 20px;
 }
 
-.card {
-    width: 100%;
-    padding: 15px 20px;
-    grid-template-columns: repeat(3, auto);
-    justify-content: space-around;
-}
+/* .card {
+    display: grid;
+    max-width: 400px;
+    margin: auto;
+    justify-content: center;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, auto);
+    grid-gap: 20px;
+} */
 
 .card-image {
-    height: 250px;
+    height: 300px;
     width: auto;
 }

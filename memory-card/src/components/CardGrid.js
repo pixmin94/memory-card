@@ -4,6 +4,12 @@ import Card from "./Card";
 import sana from '../img/sana.jpeg';
 import tzuyu from '../img/tzuyu.jpeg';
 import momo from '../img/momo.jpg';
+import mina from '../img/mina.jpeg';
+import jihyo from '../img/jihyo.jpeg';
+import nayeon from '../img/nayeon.jpeg';
+import chaeyoung from '../img/chaeyoung.jpeg';
+import dahyun from '../img/dahyun.png';
+import jeongyeon from '../img/jeongyeon.jpeg'
 
 function CardGrid(props) {
     const { updateScore } = props;
@@ -19,6 +25,30 @@ function CardGrid(props) {
         {
             image: momo,
             name: 'Momo'
+        },
+        {
+            image: mina,
+            name: 'Mina'
+        },
+        {
+            image: jihyo,
+            name: 'Jihyo'
+        },
+        {
+            image: nayeon,
+            name: 'Nayeon'
+        },
+        {
+            image: dahyun,
+            name: 'Dahyun'
+        },
+        {
+            image: chaeyoung,
+            name: 'Chaeyoung'
+        },
+        {
+            image: jeongyeon,
+            name: 'Jeongyeon'
         }
     ]
     const [cards, setNewCards] = useState(images)

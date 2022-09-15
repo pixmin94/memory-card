@@ -32,7 +32,9 @@ function Game(){
     return (
         <>
             <Header score={score} highScore={highScore}/>
-            <CardGrid updateScore={updateScore} />
+            <div className="card-container">
+                <CardGrid updateScore={updateScore} />
+            </div>
         </>
     )
 }
