@@ -1,0 +1,2 @@
+body{background-color:pink}.header{align-items:center;display:flex;flex-direction:column}#headerLogo{max-height:120px}.card-container{grid-gap:20px;display:grid;grid-template-columns:repeat(3,1fr);grid-template-rows:repeat(3,auto);justify-content:center;margin:auto;max-width:400px}.card-image{height:300px;width:auto}
+/*# sourceMappingURL=main.96464d55.css.map*/

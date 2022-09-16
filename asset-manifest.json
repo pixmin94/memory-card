@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.96464d55.css",
+    "main.js": "/static/js/main.44cc0fcb.js",
+    "static/media/dahyun.png": "/static/media/dahyun.be1d561a756b4254ae7b.png",
+    "static/media/momo.jpg": "/static/media/momo.04a029bb054b0945e539.jpg",
+    "static/media/twice-logo.png": "/static/media/twice-logo.a297d92958630dfd64ad.png",
+    "static/media/mina.jpeg": "/static/media/mina.e7c95e88245e96490c6d.jpeg",
+    "static/media/tzuyu.jpeg": "/static/media/tzuyu.af47d54a958432cf8ca1.jpeg",
+    "static/media/sana.jpeg": "/static/media/sana.059d6c409cbd95a9d3ba.jpeg",
+    "static/media/jihyo.jpeg": "/static/media/jihyo.b8f78468d62982154c19.jpeg",
+    "static/media/jeongyeon.jpeg": "/static/media/jeongyeon.51e56eab6176ff85f8bb.jpeg",
+    "static/media/nayeon.jpeg": "/static/media/nayeon.77e520cb8fae3a2c4ec2.jpeg",
+    "static/media/chaeyoung.jpeg": "/static/media/chaeyoung.c77c0af7100688b77975.jpeg",
+    "index.html": "/index.html",
+    "main.96464d55.css.map": "/static/css/main.96464d55.css.map",
+    "main.44cc0fcb.js.map": "/static/js/main.44cc0fcb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.96464d55.css",
+    "static/js/main.44cc0fcb.js"
+  ]
+}
